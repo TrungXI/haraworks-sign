@@ -1,6 +1,6 @@
 {
   "name": "haraworks-sign",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "My custom library",
   "main": "main.js",
   "keywords": [
@@ -8,11 +8,24 @@
     "haraworks-sign",
     "node-signpdf",
     "pdf-lib",
-    "sign","verify","pdf","node","nodejs","esign","adobe","ppklite","sign detached","pkcs7","pkcs#7","pades","digital","signature"
+    "sign",
+    "verify",
+    "pdf",
+    "node",
+    "nodejs",
+    "esign",
+    "adobe",
+    "ppklite",
+    "sign detached",
+    "pkcs7",
+    "pkcs#7",
+    "pades",
+    "digital",
+    "signature"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode production",
+    "build": "./node_modules/.bin/babel ./src -d ./dist",
     "start": "npm run build && node dist/index.js",
     "generic": "npm run build && node dist/generic.js",
     "genericp12": "npm run build && node dist/genericp12.js",
@@ -37,6 +50,7 @@
     "fs": "0.0.1-security",
     "node-forge": "^0.10.0",
     "node-libs-browser": "^2.2.1",
+    "node-polyfill-webpack-plugin": "^2.0.1",
     "node-signpdf": "^1.3.2",
     "pdf-lib": "^1.16.0",
     "webpack": "^5.88.2"

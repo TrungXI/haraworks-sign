@@ -19,6 +19,7 @@ function createPKCS12  (privateKeyPath, certificatePath, outputPath, password) {
     // Ghi tệp PKCS#12
     fs.writeFileSync(outputPath, pkcs12Der, 'binary');
     console.log('PKCS12 file generated successfully:', outputPath);
+    return { pkcs12Der , pkcs12 };
   }
 // const privateKeyPath = './output_directory/private.key';
 // const certificatePath = './output_directory/certificate.crt';
