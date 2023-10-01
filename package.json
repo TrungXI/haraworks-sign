@@ -1,8 +1,14 @@
 {
   "name": "haraworks-sign",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000h\u0000a\u0000r\u0000a\u0000w\u0000o\u0000r\u0000k\u0000s\u0000-\u0000s\u0000i\u0000g\u0000n\u0000\r\u0000 \u0000",
-  "main": "index.js",
+  "description": "My custom library",
+  "main": "main.js",
+  "keywords": [
+    "haraworks",
+    "haraworks-sign",
+    "node-signpdf",
+    "pdf-lib"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
@@ -15,7 +21,7 @@
     "type": "git",
     "url": "git+https://github.com/TrungXI/haraworks-sign.git"
   },
-  "author": "",
+  "author": "Việt Trung",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/TrungXI/haraworks-sign/issues"
