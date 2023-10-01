@@ -7,7 +7,8 @@
     "haraworks",
     "haraworks-sign",
     "node-signpdf",
-    "pdf-lib"
+    "pdf-lib",
+    "sign","verify","pdf","node","nodejs","esign","adobe","ppklite","sign detached","pkcs7","pkcs#7","pades","digital","signature"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
